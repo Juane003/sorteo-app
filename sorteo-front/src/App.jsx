@@ -17,6 +17,7 @@ function App() {
       const data = await getData(baseUrl)
 
       setAlumnos(data);
+      
     }
 
     fetchData();
